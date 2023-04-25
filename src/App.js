@@ -4,7 +4,7 @@ import { Points, PointMaterial } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
 import InfoOverlay from "./components/InfoOverlay";
 import Stars from "./components/Stars";
-import Timeline from "./components/Timeline";
+import MyTimeline from "./components/Timeline";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       </section>
 
       <section style={{ height: "100vh" }}>
-        <Timeline />
+        <MyTimeline />
       </section>
     </div>
   );

@@ -17,6 +17,8 @@ function InfoOverlay() {
           animate={{ x: [-150, 0], opacity: 1 }}
           transition={{ ease: "easeIn", duration: 2 }}
           initial={{ opacity: 0 }}
+          style={{ marginTop: -20 }}
+          whileInView={{ opacity: [1] }}
         >
           <p className="title-name fullname">Dilan Ramirez</p>
         </motion.div>
@@ -24,6 +26,7 @@ function InfoOverlay() {
           animate={{ x: [-150, 0], opacity: 1 }}
           transition={{ opacity: 0, duration: 2, delay: 1 }}
           initial={{ opacity: 0 }}
+          style={{ marginTop: -30 }}
         >
           <p className="ocupation">Software Engineer</p>
         </motion.div>
@@ -31,6 +34,7 @@ function InfoOverlay() {
           animate={{ x: [-150, 0], opacity: 1 }}
           transition={{ opacity: 0, duration: 2, delay: 2 }}
           initial={{ opacity: 0 }}
+          style={{ marginTop: -20 }}
         >
           <p className="second-ocupation">Web developer</p>
         </motion.div>{" "}
